@@ -4,7 +4,7 @@ var jshint = require('gulp-jshint');
 
 gulp.task('hint', function () {
 
-    gulp.src(['./source/main.js', './source/View/*.js'])
+    gulp.src(['./clientapp/**/*.js'])
         .pipe(jshint('.jshintrc'))
         .pipe(jshint.reporter('jshint-stylish'));
 });

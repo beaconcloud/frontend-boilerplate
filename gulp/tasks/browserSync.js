@@ -13,6 +13,8 @@ gulp.task('browserSync', ['build'], function () {
 
         // Watch the following files
         files: [
+            "clientapp/**/*.js",
+            "styles/**/*.scss",
             "templates/**/*.jade"
         ]
     };
