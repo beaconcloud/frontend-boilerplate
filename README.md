@@ -1,6 +1,6 @@
-# francis-boilerplate
+# frontend-boilerplate
 
-Ease your development pains with francis-boilerplate.
+Ease your development pains with frontend-boilerplate.
 
 Just copy the entire directory and rename as needed.
 
