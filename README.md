@@ -7,11 +7,25 @@ Just copy the entire directory and rename as needed.
 If you're cloning from github, be sure to have [Node.js](http://nodejs.org/download/) installed. Then:
 
 ```shell
-# Install node_module dependencies, which will include bower
+
+# Shortcut
+
+# Install dependencies
+$ npm run build
+# Blast off!
+$ npm run start
+
+
+# What's actually happening
+
+# Install dependencies from the NPM registry (includes Bower)
 $ npm install
 
-# Install sass-bootstrap via bower
+# Install sass-bootstrap
 $ bower install
+
+# Blast off!
+$ gulp
 ```
 
 ## Stack
