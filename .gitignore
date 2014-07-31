@@ -1,0 +1,13 @@
+# Generic Files
+*.DS_Store
+*~
+*.lock
+*.swp
+*.out
+
+# SASS
+.sass-cache
+
+# NPM
+npm-debug.log
+node_modules
