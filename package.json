@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "front-end boilerplate",
+  "scripts": {
+    "clean": "rm -rf bower_components node_modules",
+    "build": "npm install && bower install",
+    "start": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BeaconCloudSolutions/francis-boilerplate"
